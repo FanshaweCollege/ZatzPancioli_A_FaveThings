@@ -1,14 +1,14 @@
-<section>
+<section id="gamesMain">
     {{!-- this is a loop for handlebars --}}
     <h1>My 3 Favourite Games</h1>
     <div id="games">
     {{#each games}}
     <div class="gamesContainer">
         <div class="gamesDetails">
-        <a href="/{{game_name}}">
-        <img src="/images/{{game_img}}" alt="Game Image">
-        </a>
-        <h3 class="gameName">{{game_name}}</h3>
+            <h3 class="gameName">{{game_name}}</h3>
+            <a href="/{{game_name}}">
+                <img src="/images/{{game_img}}" alt="Game Image">
+            </a>
         </div>
     </div>
     {{/each}}

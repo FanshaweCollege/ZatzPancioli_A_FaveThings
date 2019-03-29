@@ -1,0 +1,21 @@
+footer{
+    width: 100%;
+    height: 5vh;
+    background-color: $bg-header;
+    width: 100%;
+    p{
+        padding-top: 2%;
+        padding-left: 2%;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    footer{
+        height: 8vh;
+        p{
+            padding-top: 2%;
+            padding-left: 2%;
+            font-size: 14px;
+        }
+    }
+}

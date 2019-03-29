@@ -1,0 +1,44 @@
+#aboutGame{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    h1{
+        margin-bottom: 4vh;
+        font-weight: 300;
+    }
+    #banner{
+        width: 100%;
+        height: auto;
+        margin-bottom: 5vh;
+        img{
+            width: 100%;
+        }
+    }
+    .aboutDetails{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .gameInfo{
+        font-size: 2em;
+        text-align: left;
+        display: block;
+        margin: 0 auto;
+        width: 75%;
+        margin-top: 4vh;
+        margin-bottom: 5vh;
+        p{
+            font-family: $font-text;
+            font-weight: 200;
+            font-size: 18px;
+            text-align: justify;
+        }
+        p:nth-last-of-type(1){
+            margin-top: 25px;
+        }
+    }
+    h1{
+        width: 100%;
+    }
+}
